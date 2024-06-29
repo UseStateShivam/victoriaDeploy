@@ -75,7 +75,7 @@ function Dashboard() {
         <>
             <div className='w-screen h-screen overflow-hidden relative'>
                 <div className='w-full h-full -z-[1000000] bg-black absolute'></div>
-                <Image alt='bg' src='/vid/69.png' className='object-cover w-screen h-screen -z-[10] absolute blur-sm' width={500} height={300}/>
+                <Image alt='bg' src='./vid/69.png' className='object-cover w-screen h-screen -z-[10] absolute blur-sm' width={500} height={300}/>
                 <div className='w-[65%] h-[80%] text-xl bg-white bg-opacity-75 rounded-3xl p-10 mx-auto mt-[4.5vw] overflow-auto'>
                     <div className='flex justify-between items-center'>
                         <h1 className='font-bold text-3xl'>Welcome to the Dashboard!</h1>

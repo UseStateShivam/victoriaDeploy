@@ -90,10 +90,10 @@ function Page() {
               </div>
             </div>
             <div className='w-[35%] h-screen absolute right-[10%] bg-[#f8c1a5e1] overflow-hidden'>
-              <Image src="/rg.png" alt="rg_img" className='w-[100vw] scale-[200%] -translate-x-[5.5vw] translate-y-[12vw]' width={500} height={300}/>
+              <Image src="./rg.png" alt="rg_img" className='w-[100vw] scale-[200%] -translate-x-[5.5vw] translate-y-[12vw]' width={500} height={300}/>
             </div>
           </div>
-            <Image width={500} height={300} src="/registerBg.jpg" alt="bg_img" className='w-screen object-cover blur-sm -z-[10000]'/>
+            <Image width={500} height={300} src="./registerBg.jpg" alt="bg_img" className='w-screen object-cover blur-sm -z-[10000]'/>
         </div>
     </>
   )

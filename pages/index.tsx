@@ -58,7 +58,7 @@ function Page() {
       {/* <motion.div style={{x: mouse.x, y: mouse.y}} className='w-3 h-3 rounded-full bg-black z-[1000000000000000000000] absolute'></motion.div> */}
       <nav className='flex items-center justify-between pt-8 px-20 fixed z-[100000] w-screen overflow-hidden'>
         {/* <h1 className='text-3xl font-bold cursor-pointer'>LOGO</h1> */}
-        <Image width={500} height={300} alt='' src='${basePath}/vfsLogo.png' className='w-[15vw]'/>
+        <Image width={500} height={300} alt='' src='./vfsLogo.png' className='w-[15vw]'/>
         <ul className='flex gap-5 text-xl font-normal '>
           {/* <li className='cursor-pointer hover:font-semibold duration-100 ease-linear'>Home</li> */}
           <li onClick={handleRegisterClick} className='cursor-pointer hover:font-semibold duration-100 bg-gradient-to-r from-orange-500 to-orange-700 text-white font-semibold p-3 rounded-3xl border-2 border-black ease-linear hover:shadow-2xl hover:text-2xl'>Register</li>
@@ -66,11 +66,11 @@ function Page() {
         </ul>
       </nav>
       <div className='w-screen h-screen pt-16 overflow-hidden bg-[#ffe8df] fixed'>
-        <Image width={500} height={300} alt='' src="/mandir.png" className='w-[72%] brightness-125 -right-[15vw] scaling-image z-[100] absolute'/>
+        <Image width={500} height={300} alt='' src="./mandir.png" className='w-[72%] brightness-125 -right-[15vw] scaling-image z-[100] absolute'/>
         <div className='w-[50vw] overflow-hidden'>
-          <Image width={500} height={300} alt='' src="/mantra.png"  className='w-[35%] z-[85] mx-auto rotating-image absolute right-[4.9vw]'/>
+          <Image width={500} height={300} alt='' src="./mantra.png"  className='w-[35%] z-[85] mx-auto rotating-image absolute right-[4.9vw]'/>
         </div>
-        <Image width={500} height={300} alt='' src="/gradBg.png" className='absolute w-[90%] top-0 right-0'/>
+        <Image width={500} height={300} alt='' src="./gradBg.png" className='absolute w-[90%] top-0 right-0'/>
         <div className='px-20 py-24 z-[100] absolute'>
           <h1 className='font-bold text-8xl'>
             Victoria Floors
