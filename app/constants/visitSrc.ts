@@ -1,5 +1,5 @@
 export const visitSrc = [
-    "/vid/1.png",
+    "./vid/1.png",
     "/vid/2.png",
     "/vid/3.png",
     "/vid/4.png",
