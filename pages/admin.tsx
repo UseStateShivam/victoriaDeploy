@@ -4,7 +4,7 @@ import '../styles/globals.css';
 import React, { MouseEvent, useEffect, useState } from 'react'
 import { flats1, flats2 } from '../app/constants/flats'
 import { useRouter } from 'next/navigation'
-// 
+// blah
 function Page() {
   const router = useRouter()
   const [flatNumberSelected, setFlatNumberSelected] = useState('')
