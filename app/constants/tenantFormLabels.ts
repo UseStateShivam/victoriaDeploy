@@ -1,0 +1,17 @@
+export const TenantFormLabels = [
+    'NameOfOwner',
+    'NameOfTenant',
+    'FlatNo',
+    'ResidingSince',
+    'AdharNo',
+    'OwnerContact',
+    'TenantContact',
+    'WorkPlace',
+    'PermanentTenantAddress',
+    'OwnerAddress',
+    'FourWheelerNo',
+    'TwoWheelerNo',
+    'RestNameAdharContact',
+    'PoliceVerificationSubmitted',
+    'RentAgreementSubmitted',
+]

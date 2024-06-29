@@ -1,0 +1,12 @@
+{
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/$1" }
+    ],
+    "builds": [
+      {
+        "src": "client/package.json",
+        "use": "@vercel/next"
+      }
+    ]
+  }
+  
