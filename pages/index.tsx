@@ -89,9 +89,9 @@ function Page() {
             <button onClick={handleProfileClick} className='font-bold text-3xl p-5 border-2 border-black rounded-lg mr-8 ml-2 mt-6 cursor-pointer hover:text-4xl duration-150 ease-linear'>
               View Profile
             </button>
-            <button onClick={handleVirtualClick} className='font-bold text-3xl p-5 border-2 border-black rounded-lg mr-8 ml-2 mt-6 cursor-pointer text-[#fff4ef] duration-150 bg-gradient-to-r from-orange-500 to-orange-700 hover:shadow-2xl hover:text-4xl'>
+            {/* <button onClick={handleVirtualClick} className='font-bold text-3xl p-5 border-2 border-black rounded-lg mr-8 ml-2 mt-6 cursor-pointer text-[#fff4ef] duration-150 bg-gradient-to-r from-orange-500 to-orange-700 hover:shadow-2xl hover:text-4xl'>
               Visit Virtually
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
