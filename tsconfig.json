@@ -37,7 +37,8 @@
     "app/layout.tsx",
     "build/types/**/*.ts",
     "pages/adminDashboard/[flatNumber]/[flatNumber].js/page.jsx",
-    "output/types/**/*.ts"
+    "output/types/**/*.ts",
+    "dist/types/**/*.ts"
   ],
   "exclude": [
     "node_modules"

@@ -79,7 +79,7 @@ function Page() {
             <span className='font-[Satisfy] text-[#ff6827] stroke-black'>
               Street&nbsp;
             </span>
-            - 2
+            ~ 2
           </h3>
           <p className='text-2xl font-bold pl-2 pt-4'>
             Peer Muchalla, Zirakpur <br />
